@@ -1,4 +1,4 @@
-setwd("C:/Estatística Básica/Estat-stica-B-sica")
+setwd("C:/Estatistica Basica/Estat-stica-B-sica")
 library(xlsx)
 # install.packages("qcc")
 library(qcc)
@@ -12,5 +12,5 @@ color = palette()[661]
 names(pessoas) <- qual
 
 jpeg('graficos/exercicio6_graf1.jpg')
-pareto.chart(pessoas, ylab = "Nº de pessoas", xlab = "Qualidade", ylab2 = "Porcentagem", main = "Exercício 6", col = color) 
+pareto.chart(pessoas, ylab = "N? de pessoas", xlab = "Qualidade", ylab2 = "Porcentagem", main = "Exerc?cio 6", col = color) 
 dev.off()

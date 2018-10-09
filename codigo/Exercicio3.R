@@ -1,4 +1,4 @@
-setwd("C:/Estatística Básica/Estat-stica-B-sica")
+setwd("C:/Estatistica Basica/Estat-stica-B-sica")
 library(xlsx)
 tabela <- read.xlsx("dados/exercicio3.xlsx", sheetName = "Plan1")
 
